@@ -39,6 +39,19 @@
 ## Những người đóng góp
 
 <!-- readme: contributors -start -->
+<table>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/paulpham157">
+                    <img src="https://avatars.githubusercontent.com/u/68021190?v=4" width="100;" alt="paulpham157"/>
+                    <br />
+                    <sub><b>Paul Pham 157</b></sub>
+                </a>
+            </td>
+		</tr>
+	<tbody>
+</table>
 <!-- readme: contributors -end -->
 
 ## License
