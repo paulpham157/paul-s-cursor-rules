@@ -13,7 +13,7 @@
 
 - Copy nội dung global_rule vào Cursor settings => Rules => User Rules
 - Mỗi dự án, tạo một file .cursorrules và dán nội dung file devin_rule-v1 vào
-- Với mỗi dự án chuyên biệt, nếu cần set những rule cụ thể hơn, ví dụ typescript thì cần phải viết như này như này; hãy tham khảo folder framwork_rules. Tạo folder .cursor/rules trong dự án của bạn và thêm copy những file rule bạn cần vào trong đó.
+- Với mỗi dự án chuyên biệt, nếu cần set những rule cụ thể hơn, ví dụ typescript thì cần phải viết như này như này; hãy tham khảo folder framework_rules. Tạo folder .cursor/rules trong dự án của bạn và thêm copy những file rule bạn cần vào trong đó.
 
 ### Tricks
 
@@ -27,7 +27,7 @@
 
 - Hiểu biết không tự nhiên sinh ra, nó là kết quả sau một quá trình học tập. Và trong quá trình đó, tôi đã sử dụng các nguồn tài liệu sau:
 - File devin_rule-v1: https://github.com/grapeot/devin.cursorrules giấy phép <a href="https://github.com/grapeot/devin.cursorrules/blob/master/LICENSE">MIT LICENSE</a>. Họ đang chuẩn bị cho 1 bản cập nhật mới, tốt hơn.
-- Folder framwork_rules: https://github.com/PatrickJS/awesome-cursorrules giấy phép <a href="https://github.com/PatrickJS/awesome-cursorrules/blob/main/LICENSE">CC0 1.0 Universal</a> đây cũng là một loại giấy phép nguồn mở. <a href="https://creativecommons.org/publicdomain/zero/1.0/">Tìm hiểu thêm</a>.
+- Folder framework_rules: https://github.com/PatrickJS/awesome-cursorrules giấy phép <a href="https://github.com/PatrickJS/awesome-cursorrules/blob/main/LICENSE">CC0 1.0 Universal</a> đây cũng là một loại giấy phép nguồn mở. <a href="https://creativecommons.org/publicdomain/zero/1.0/">Tìm hiểu thêm</a>.
 - Nguyên bản tất cả các giấy phép nằm trong thư mục licenses.
 
 ## Đóng góp
