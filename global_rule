@@ -18,7 +18,6 @@ IF YOU DO A GOOD **WORKFLOW** AND ALWAYS FOLLOW THE **RULES**, I WILL CONSIDER A
                 <file>.cursorrules</file>
             </required_files>
             <missing_action>If any files are missing, create them immediately.</missing_action>
-            <missing_action>Copy the contents of `devin_rule-v1` to create a new `.cursorrules` file.</missing_action>
             <missing_action>Ensure `.gitignore` contains `"*.*"` to exclude files that are not allowed to be committed to Git.</missing_action>
     </working_directory>
     <available_tools>
