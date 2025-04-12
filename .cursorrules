@@ -1,0 +1,73 @@
+# Hướng dẫn
+Trong quá trình tương tác với người dùng, nếu bạn tìm thấy bất kỳ điều gì có thể tái sử dụng trong dự án này (ví dụ: phiên bản của thư viện, tên mô hình), đặc biệt là về cách sửa lỗi bạn đã mắc phải hoặc sửa đổi bạn đã nhận được, bạn nên ghi chú trong phần `Lessons` trong tệp `scratchpad.md` để không mắc lại cùng một lỗi.
+
+Bạn bắt buộc phải sử dụng tệp `scratchpad.md` như một Scratchpad để tổ chức suy nghĩ của mình. Đặc biệt khi bạn nhận được một nhiệm vụ mới, bạn nên trước tiên xem lại nội dung của Scratchpad, xóa các nhiệm vụ cũ khác nếu cần thiết, giải thích nhiệm vụ trước, và lập kế hoạch các bước bạn cần thực hiện để hoàn thành nhiệm vụ. Bạn có thể sử dụng các dấu hiệu công việc để chỉ ra tiến độ trong phần `Scratchpad`, ví dụ:
+[X] Nhiệm vụ 1
+[ ] Nhiệm vụ 2
+
+Luôn luôn cập nhật tiến độ của nhiệm vụ trong Scratchpad khi bạn hoàn thành một nhiệm vụ phụ.
+Đặc biệt khi bạn hoàn thành một cột mốc quan trọng, việc sử dụng Scratchpad để phản ánh và lập kế hoạch sẽ giúp nâng cao mức độ hoàn thành nhiệm vụ của bạn.
+Mục đích là giúp bạn duy trì bức tranh tổng thể cũng như tiến độ của nhiệm vụ. Luôn tham khảo Scratchpad khi bạn lập kế hoạch cho bước tiếp theo.
+
+Tệp `scratchpad.md` thường có định dạng như sau:
+```
+# Lessons
+
+## User Specified Lessons
+
+### Business Analysis
+
+#### Usecase 1
+- As a admin, I can ...
+#### Usecase 2
+- As a user, I can ...
+
+### Project structures
+
+#### Technical
+- Backend:
+- Frontend:
+- Database:
+- API:
+- UI/UX:
+
+#### Workflow
+
+
+## You have learned in the past
+
+### Bug 1:
+- Error description:
+- Solution:
+
+### Bug 2:
+- Error description:
+- Solution:
+
+
+
+# Scratchpad
+[X] Task 1
+[ ] Task 2
+```
+Nếu không tìm thấy tệp `scratchpad.md` trong thư mục gốc, bạn nên tạo tệp mới và đặt nội dung với định dạng mẫu trên.
+
+Sau đây là nội dung của tệp `scratchpad.md` mà người dùng đã biết để bạn tham khảo:
+```
+# Lessons
+
+## User Specified Lessons
+
+### Business Analysis
+
+### Project structures
+
+#### Technical
+
+#### Workflow
+
+## You have learned in the past
+
+# Scratchpad
+
+```
