@@ -9,27 +9,31 @@
 
 
 ## Chỉ dùng 1 trong 2 cách sau:
-## Hướng dẫn sử dụng Cách 1: Mới
+
+### ⭐ Hướng dẫn sử dụng Cách 2: MỚI ⭐
+Sử dụng các file trong thư mục `2`
+
 - Copy file .cursorrules vào workspace của bạn
 - Trong Cursor mở cửa sổ chat mới, chọn agent, add context file `.cursorrules` (hoặc @ nó vào, nếu tab đang mở là file `.cursorrules` luôn thì nó sẽ tự add, không cần làm gì nữa cả)
 - Bắt đầu làm việc. Để cho chắc, câu đầu tiên bạn có thể hỏi nó "đã rõ công việc của mình chưa?" để xác nhận lại
 - Rule này hoạt động tốt nhất ở chế độ agent, với các model thinking claude-3.7-sonnet (không cần MAX), gemini-2.5-pro (không cần MAX)
 - Sau khoảng chục lần đò đưa thì bạn nên bảo cursor là "ok, bây giờ bạn làm rất tốt, bây giờ bạn tổng hợp bài học đi và làm sạch những task đã done trong scratchpad để còn làm task mới nữa". Xong rồi nó summary lại file `scratchpad.md`, bạn mở 1 đoạn chat mới và bảo "chào nhân viên mới, hãy làm tiếp công việc còn lại". Việc này để tránh memory leaking khi mà file `scratchpad.md` càng to thì lượng context đưa vào càng nhiều, mà mỗi model lại chỉ có limit context length nhất địng thôi. Mặc dù chat tiếp thì vẫn được thôi nhưng tốt nhất là sang 1 đoạn chat mới.
 
-## Hướng dẫn sử dụng Cách 2: Cũ
+### Hướng dẫn sử dụng Cách 1: CŨ
+Sử dụng các file trong thư mục `1`
 
-### Setup rules
+#### Setup rules
 
 - Copy nội dung global_rule vào Cursor settings => Rules => User Rules
 - Mỗi dự án, tạo một file .cursorrules và dán nội dung file devin_rule-v1 vào
 - Với mỗi dự án chuyên biệt, nếu cần set những rule cụ thể hơn, ví dụ typescript thì cần phải viết như này như này; hãy tham khảo folder framework_rules. Tạo folder .cursor/rules trong dự án của bạn và thêm copy những file rule bạn cần vào trong đó.
 
-### Tricks
+#### Tricks
 
 - Sử dụng tốt nhất với Agent mode, claude-3.7-sonnet thinking
 - Thay vì prompt "tôi muốn bạn làm việc ABC" thì hãy prompt "hãy lên lịch/kế hoạch từng bước để làm việc ABC"
-- notepads... là gì? dùng như nào? (đang cập nhật)
-- MCP... là gì? dùng như nào? (đang cập nhật)
+- notepads... là gì? dùng như nào? (trong phiên bản gần đây, Cursor đã bỏ)
+- MCP... là gì? dùng như nào? (có quá nhiều bác đã lên bài rồi ^^ e k nói lại nữa)
 - Các settings khác... (đang cập nhật)
 
 ## Nguồn
