@@ -2,7 +2,7 @@
 
 ## Giới thiệu
 
-- Repo này tổng hợp settings, các kinh nghiệm cá nhân của mình trong quá trình sử dụng Cursor IDE trong việc coding.
+- Repo này tổng hợp settings, các kinh nghiệm cá nhân của tôi trong quá trình sử dụng Cursor IDE trong việc coding.
 - Repo này public hoàn toàn dưới dạng giấy phép nguồn mở MIT.
 - Bạn không cần phải xin phép ai khi sử dụng/sửa đổi nó với mục đích cá nhân.
 - Trong trường hợp sử dụng thương mại, bạn cần dẫn nguồn rõ ràng, không sửa đổi đến đường dẫn <a href="https://github.com/paulpham157/paul-s-cursor-rules/blob/main/LICENSE">LICENSE nguồn mở từ repo này</a> và toàn bộ các giấy phép từ các nguồn khác mà repo này sử dụng.
@@ -13,7 +13,9 @@
 ### ⭐ Hướng dẫn sử dụng Cách 2: MỚI ⭐
 Sử dụng các file trong thư mục `2`
 
-- Copy file .cursorrules vào workspace của bạn
+- KHÔNG cần phải set global_rule gì đặc biệt trong Cursor settings => Rules => User Rules. Nếu có thì chỉ cần đơn giản như "Always respond in Vietnamese." cũng được
+- (Nếu bạn đã từng dùng cách 1) với cách 2 này, không cần phải tạo file `scratchpad.md`, Cursor sẽ tự tạo
+- Copy file `.cursorrules` vào workspace của bạn
 - Trong Cursor mở cửa sổ chat mới, chọn agent, add context file `.cursorrules` (hoặc @ nó vào, nếu tab đang mở là file `.cursorrules` luôn thì nó sẽ tự add, không cần làm gì nữa cả)
 - Bắt đầu làm việc. Để cho chắc, câu đầu tiên bạn có thể hỏi nó "đã rõ công việc của mình chưa?" để xác nhận lại
 - Rule này hoạt động tốt nhất ở chế độ agent, với các model thinking claude-3.7-sonnet (không cần MAX), gemini-2.5-pro (không cần MAX)
@@ -25,7 +27,7 @@ Sử dụng các file trong thư mục `1`
 #### Setup rules
 
 - Copy nội dung global_rule vào Cursor settings => Rules => User Rules
-- Mỗi dự án, tạo một file .cursorrules và dán nội dung file devin_rule-v1 vào
+- Mỗi dự án, tạo một file `.cursorrules` và dán nội dung file devin_rule-v1 vào
 - Với mỗi dự án chuyên biệt, nếu cần set những rule cụ thể hơn, ví dụ typescript thì cần phải viết như này như này; hãy tham khảo folder framework_rules. Tạo folder .cursor/rules trong dự án của bạn và thêm copy những file rule bạn cần vào trong đó.
 
 #### Tricks
